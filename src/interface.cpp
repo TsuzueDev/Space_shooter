@@ -48,16 +48,18 @@ void interface::set_hp(RenderWindow *_window, unsigned short hp) {
     }
 }
 
-void interface::draw(RenderWindow *_window)
+void interface::draw(sf::RenderTarget& target, sf::RenderStates states) const
 {
     for (int i = 0; i < _heart.size(); i++) {
-        _heart[i]._sprite.setPosition(Vector2f(i * (_heart[i]._sprite.getGlobalBounds().width + 5), 0));
-        _window->draw(_heart[i]._sprite);
+        target.draw(_heart[i]._sprite);
     }
 }
 
 void interface::update(float _dt)
 {
+    for (int i = 0; i < _heart.size(); i++) {
+    _heart[i]._sprite.setPosition(Vector2f(i * (_heart[i]._sprite.getGlobalBounds().width + 5), 0));
+    }
 }
 
 void interface::handle_events(Event _event)

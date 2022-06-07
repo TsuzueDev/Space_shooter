@@ -26,14 +26,11 @@ void player::draw(RenderWindow *_window)
 
 void player::moove_player(float _dt)
 {
-    if (Keyboard::isKeyPressed(Keyboard::Q) && _player.getPosition().x >= 0)
-        _player.move(-_speed * _dt, 0);
-    if (Keyboard::isKeyPressed(Keyboard::D) && _player.getPosition().x <= WINDOW_WIDTH - _player.getGlobalBounds().width)
-        _player.move(_speed * _dt, 0);
-    if (Keyboard::isKeyPressed(Keyboard::Z) && _player.getPosition().y >= 0)
-        _player.move(0, -_speed * _dt);
-    if (Keyboard::isKeyPressed(Keyboard::S) && _player.getPosition().y <= WINDOW_HEIGHT - _player.getGlobalBounds().height - 120)
-        _player.move(0, _speed * _dt);
+    bool moveLeft = Keyboard::isKeyPressed(Keyboard::Q) && _player.getPosition().x >= 0;
+    bool moveRight = Keyboard::isKeyPressed(Keyboard::D) && _player.getPosition().x <= WINDOW_WIDTH - _player.getGlobalBounds().width;
+    bool moveUp = Keyboard::isKeyPressed(Keyboard::Z) && _player.getPosition().y >= 0;
+    bool moveDown = Keyboard::isKeyPressed(Keyboard::S) && _player.getPosition().y <= WINDOW_HEIGHT - _player.getGlobalBounds().height - 120;
+    _player.move((-moveLeft + moveRight) * _speed * _dt, (-moveUp + moveDown) * _speed * _dt);
 }
 
 void player::update(float _dt)

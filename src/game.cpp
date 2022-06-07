@@ -33,7 +33,7 @@ void game::draw()
     _window->clear(Color::Black);
     _parallax.draw(_window);
     _player.draw(_window);
-    _interface.draw(_window);
+    _window->draw(_interface);
     _enemy.draw(_window);
     _window->display();
 }

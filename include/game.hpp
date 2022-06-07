@@ -26,6 +26,7 @@
             player _player;
             interface _interface;
             enemy _enemy;
+            //Projectile _projectile;
             parallax _parallax;
 
 

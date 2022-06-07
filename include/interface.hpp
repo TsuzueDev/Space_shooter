@@ -14,11 +14,11 @@
         sf::Sprite _sprite;
     } hp_point;
 
-    class interface {
+    class interface : public sf::Drawable {
         public :
             interface();
             ~interface() = default;
-            void draw(RenderWindow *_window);
+            virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
             void update(float _dt);
             void handle_events(Event _event);
 
