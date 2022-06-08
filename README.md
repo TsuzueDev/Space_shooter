@@ -1,4 +1,7 @@
 # space_shooter
+![Language](https://img.shields.io/badge/Language-C++-0052cf)
+![Libraries](https://img.shields.io/badge/Libraries-SFML-00cf2c)
+![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 ### A simple space-shooter-like game
 
