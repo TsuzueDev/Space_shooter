@@ -2,8 +2,6 @@
 
 ### A simple space-shooter-like game | C++ / SFML
 
-##Headers (Underline)
-
 H1 Header (Underline)
 =============
 
