@@ -3,7 +3,7 @@
 ![Libraries](https://img.shields.io/badge/Libraries-SFML-00cf2c)
 ![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
-### A simple space-shooter-like game
+### A simple  2D space-shooter-like game
 
 This project is currently on development, so I will update it regularly.
 The goal of this work is to learn c++ and graphical project.
@@ -14,13 +14,25 @@ The aim of this is to make a complete rogue-like in space with various enemy/buf
 
 * **[Summary](#summary)**
 * **[Features](#features)**
-     * [Player](player)
-     * [Enemy](enemy)
+     * [Player](#player)
+     * [Enemy](#enemy)
+     * [Parallax](#parallax)
 * **[Install](#install)**
 * **[Credits](#credits)**
 
 # Features
 
+### Player
+
+The player is a spaceship controlled with ZQSD. (working on adding shooting option)
+
+### Enemy
+
+Bandit moving around you with an increasing velocity. (working on adding shooting option)
+
+### Parallax
+
+Image moving on the background giving an effect of "speed".
 
 How to run it
 -------------
