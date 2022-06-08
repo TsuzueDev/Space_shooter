@@ -7,6 +7,8 @@
 
 * **[Summary](#summary)**
 * **[Features](#features)**
+     * [Player](player)
+     * [Enemy(enemy)
 * **[Install](#install)**
 * **[Credits](#credits)**
 * 
