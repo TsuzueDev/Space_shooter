@@ -5,6 +5,10 @@
 
 ### A simple space-shooter-like game
 
+This project is currently on development, so I will update it regularly.
+The goal of this work is to learn c++ and graphical project.
+The aim of this is to make a complete rogue-like in space with various enemy/buff/bosses.
+
 
 # Summary
 
@@ -14,15 +18,9 @@
      * [Enemy](enemy)
 * **[Install](#install)**
 * **[Credits](#credits)**
-* 
-First of all
--------------
 
-Hello, I'm ending my first year as an Epitech student, this project is currently on development, so I will update it regularly.
+# Features
 
-The goal of this work is to learn c++ and graphical project.
-
-The aim of this is to make a complete rogue-like in space with various enemy/buff/bosses.
 
 How to run it
 -------------
