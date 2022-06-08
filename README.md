@@ -1,6 +1,6 @@
 # space_shooter
 
-### A simple space-shooter-like game
+### A simple space-shooter-like game (underline)
 
 =============
 
