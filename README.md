@@ -1,5 +1,4 @@
 # space_shooter
-[id/name]: http://link-url/
 ![Language](https://img.shields.io/badge/Language-C++-0052cf)
 ![Libraries](https://img.shields.io/badge/Libraries-SFML-00cf2c)
 ![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
@@ -46,5 +45,5 @@ $ make
 $ ./shooter
 ```
 # Credits
-
+[id/name]: http://link-url/
 Me , @TsuzueDev
