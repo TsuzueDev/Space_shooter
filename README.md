@@ -1,7 +1,6 @@
-#### space_shooter
-### Presentation
+# space_shooter
 
-A simple space-shooter-like game
+### A simple space-shooter-like game
 
 * Presentation
 
