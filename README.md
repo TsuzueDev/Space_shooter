@@ -45,5 +45,4 @@ $ make
 $ ./shooter
 ```
 # Credits
-[id/name]: http://link-url/
-Me , @TsuzueDev
+* [**Alan**](https://github.com/tsuzuedev) : Creator of the project.
