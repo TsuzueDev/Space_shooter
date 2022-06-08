@@ -10,7 +10,7 @@ The goal of this work is to learn c++ and graphical project.
 The aim of this is to make a complete rogue-like in space with various enemy/buff/bosses.
 
 <p align="center">
-	<img src="https://imgur.com/N6MSFhb" width="700">
+	<img src="https://imgur.com/a/7PiKUV3" width="700">
 </p>
 
 
