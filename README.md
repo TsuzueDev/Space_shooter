@@ -34,7 +34,10 @@ Bandit moving around you with an increasing velocity. (working on adding shootin
 
 Image moving on the background giving an effect of "speed".
 
-How to run it
--------------
+# install
+You need **SFML** to install the library:
+```shell
+$ pip install SFML
+```
  `git clone` && enter the directory, then simply `make` and `./shooter`
 
