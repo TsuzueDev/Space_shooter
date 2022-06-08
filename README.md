@@ -1,5 +1,5 @@
 # space_shooter
-# [C++]
+# Presentation
 
 A simple space-shooter-like game
 
