@@ -21,6 +21,7 @@ The aim of this is to make a complete rogue-like in space with various enemy/buf
      * [Player](#player)
      * [Enemy](#enemy)
      * [Parallax](#parallax)
+     * [Health](#health)
 * **[Install](#install)**
 * **[Credits](#credits)**
 
@@ -37,6 +38,10 @@ Bandit moving around you with an increasing velocity. (working on adding shootin
 ### Parallax
 
 Image moving on the background giving an effect of "speed".
+
+### Health
+
+Health point system wich can increase or decrease, (at 0, the game ends)
 
 # Install
 You need **SFML** to install the library:
