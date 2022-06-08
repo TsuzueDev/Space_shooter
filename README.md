@@ -1,5 +1,5 @@
-# space_shooter
-# Presentation
+#### space_shooter
+### Presentation
 
 A simple space-shooter-like game
 
