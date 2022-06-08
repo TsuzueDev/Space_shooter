@@ -1,6 +1,6 @@
 # space_shooter
 
-### A simple space-shooter-like game | C++
+### A simple space-shooter-like game | C++ / SFML
 
 * Presentation
 
