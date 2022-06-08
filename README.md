@@ -1,6 +1,6 @@
 # space_shooter
 
-### A simple space-shooter-like game | C++ / SFML
+### A simple space-shooter-like game
 
 
 # Summary
@@ -8,7 +8,7 @@
 * **[Summary](#summary)**
 * **[Features](#features)**
      * [Player](player)
-     * [Enemy(enemy)
+     * [Enemy](enemy)
 * **[Install](#install)**
 * **[Credits](#credits)**
 * 
