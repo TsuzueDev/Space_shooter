@@ -2,6 +2,8 @@
 
 ### A simple space-shooter-like game
 
+-----------------------
+
 * Presentation
 
-Hello,  
+Hello, this project is currently on development, so i will update it regu
