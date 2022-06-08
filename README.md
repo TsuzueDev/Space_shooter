@@ -2,7 +2,7 @@
 
 ### A simple space-shooter-like game
 
-=====
+=============
 
 * Presentation
 
