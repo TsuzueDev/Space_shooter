@@ -1,5 +1,8 @@
 # space_shooter
+#[C++]
 
-# space_shooter
+A simple space-shooter-like game
 
-* ezfez
+* Presentation
+
+Hello,  
