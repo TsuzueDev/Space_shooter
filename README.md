@@ -44,3 +44,6 @@ Then, enter the folder **space_shooter**:
 $ make
 $ ./shooter
 ```
+# Credits
+
+Me , @TsuzueDev
